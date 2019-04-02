@@ -1,0 +1,76 @@
+/* LOGO */
+
+.logo {
+	float: right;
+	margin: 12px 30px;
+}
+
+/* BACKGROUND */
+
+html {
+	background: url(backgroundpowerlines.jpg) no-repeat;
+	background-size:cover;
+	background-color: rgba(0,0,0,1);
+}
+
+/* SIDE-NAVIGATION */
+
+.sidenav {
+	margin: 72px 0px;
+	position:fixed;
+	width: 10%;
+	height: 100%;
+	background-color:navy;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+
+.navbar-header {
+	font-size: 2.3vw;
+	padding: 10px 5px 0px 5px;
+}
+
+.nav-list {
+
+	font-size: 1.5vw;
+	padding: 10px 5px 0px 5px;
+
+}
+
+/* LINKS */
+
+a {
+	color: red;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: orange;
+}
+
+/* WRAPPER FOR MAIN CONTENT */
+
+.wrapper {
+	width: auto;
+	margin:3% 1% 3% 8%;
+}
+
+.header,
+.footer {
+	background-color: black;
+	color: white;
+	padding: 30px 2px;
+	font-family: helvetica, arial, san-serif;
+	text-align: center;
+	margin: 1vw 0vw 1vw 3vw;
+	border-radius: 10px;
+}
+
+.content {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 30px;
+	margin: 1vw 0vw 1vw 3vw;
+}
